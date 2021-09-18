@@ -18,6 +18,8 @@ print("""
 
 
 def main():
+    txt = "Welcome to Hash Generator! Choose one of the hash algorithms below to continue:".title()
+    print(txt)
     print('\n1. Generate MD5 hash')
     print('2. Generate SHA1 hash')
     print('3. Generate SHA256 hash')
@@ -41,10 +43,10 @@ def main():
             elif choice == 5:
                 break
             else:
-                print("Invalid choice. Enter a choice in menu. 1, 2 or 3")
+                print("Invalid choice. Enter a choice in menu. 1, 2, 3, 4 or 5")
                 main()
         except ValueError:
-            print("Invalid choice. Enter 1, 2 or 3")
+            print("Invalid choice. Enter 1, 2, 3, 4 or 5")
     exit()
 
 #TO DO: Declare a global var for the message
