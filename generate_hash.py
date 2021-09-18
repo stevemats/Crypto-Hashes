@@ -61,9 +61,9 @@ def md5_gen():
     user_message = input("Enter message to encrypt: ")
     message = user_message.encode('utf-8')
     message_hash = hashlib.md5(message).digest()
-    print("Here's your MD5 encoded message (byte format): ",message_hash)
+    print("\nHash(byte format)= ",message_hash,"\n")
     message_hash = hashlib.md5(message).hexdigest()
-    print("Here's your MD5 encoded message (hexadecimal format): ", message_hash)
+    print("Hash(hexadecimal format)= ", message_hash,"\n")
 
 
 def sha1_gen():
@@ -77,9 +77,9 @@ def sha1_gen():
     user_message = input("Enter message to encrypt: ")
     message = user_message.encode('utf-8')
     message_hash = hashlib.sha1(message).digest()
-    print("Here's your SHA1 encoded message (byte format): ", message_hash)
+    print("\nHash(byte format)= ", message_hash,"\n")
     message_hash = hashlib.sha1(message).hexdigest()
-    print("Here's your SHA1 encoded message (hexadecimal format): ", message_hash)
+    print("Hash(hexadecimal format)= ", message_hash,"\n")
 
 
 def sha256_gen():
@@ -93,9 +93,9 @@ def sha256_gen():
     user_message = input("Enter message to encrypt: ")
     message = user_message.encode('utf-8')
     message_hash = hashlib.sha256(message).digest()
-    print("Here's your SHA1 encoded message (byte format): ", message_hash)
+    print("\nHash(byte format)= ", message_hash,"\n","\n")
     message_hash = hashlib.sha256(message).hexdigest()
-    print("Here's your SHA1 encoded message (hexadecimal format): ", message_hash)
+    print("Hash(hexadecimal format)= ", message_hash,"\n")
 
 def sha512_gen():
     """
@@ -107,9 +107,9 @@ def sha512_gen():
     user_message = input("Enter message to encrypt: ")
     message = user_message.encode()
     message_hash = hashlib.sha512(message).digest()
-    print("Here's your SHA1 encoded message (byte format): ",message_hash)
+    print("\nHash(byte format)= ",message_hash,"\n")
     message_hash = hashlib.sha512(message).hexdigest()
-    print("Here's your SHA1 encoded message (hexadecimal format): ",message_hash)
+    print("Hash(hexadecimal format)= ",message_hash,"\n")
 
 
 if __name__ == '__main__':
