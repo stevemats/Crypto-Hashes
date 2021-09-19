@@ -4,16 +4,20 @@
 
 ## Installation:
 ```
-$ git clone https://github.com/stevemats/Crypto-Hashes
+$ git clone https://github.com/stevemats/HashGenerator
 ```
 
 ## Usage:
+```
+$ cd HashGenerator
+```
+
 ```
 $ python generate_hash.py
 ```
 ![demo](https://user-images.githubusercontent.com/30528167/133909130-4bbe4222-56c1-42a6-999a-e654b9d1e6ba.PNG)
 
-## Hashes Covered here:
+## Hashes Covered:
 1. MD-5 - An MD5 hash is created by taking a string of an any length and encoding it into a 128-bit fingerprint. Encoding the same string using the MD5 algorithm will always result in the same 128-bit hash output. MD5 hashes are commonly used with smaller strings when storing passwords, credit card numbers or other sensitive data in databases such as the popular MySQL.
 
 2. SHA-1 - Secure Hash Algorithm 1(SHA-1) is a cryptographic hash function which takes an input and produces a 160-bit (20-byte) hash value. This hash value is known as a message digest. This message digest is usually then rendered as a hexadecimal number which is 40 digits long. It is a U.S. Federal Information Processing Standard and was designed by the United States National Security Agency.
